@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "uhcsmp",
+	"version": "0.1.0",
+	"name": "uhcsmp",
+	"description": "A Minecraft Fabric mod designed to add UHC-like features to a SMP server.",
+	"authors": [
+		{
+			"name": "liamswenson",
+			"contact": {
+				"homepage": "https://github.com/liamswenson/"
+			}
+		}
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/uhcsmp/",
+		"issues": "https://github.com/liamswenson/UHCSMP/issues/",
+		"sources": "https://github.com/liamswenson/UHCSMP/"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/uhcsmp/icon.png",
+	"environment": "*",
+	"mixins": [
+		"uhcsmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

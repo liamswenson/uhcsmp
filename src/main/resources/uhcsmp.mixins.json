@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.liamswenson.uhcsmp.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "GameRulesMixin",
+    "LevelInfoMixin",
+    "PlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
