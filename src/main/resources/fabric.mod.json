@@ -20,11 +20,7 @@
 		]
 	},
 	"mixins": [
-		"uhcsmp.mixins.json",
-		{
-			"config": "uhcsmp.client.mixins.json",
-			"environment": "client"
-		}
+		"uhcsmp.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
